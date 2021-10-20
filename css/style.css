@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container-grid {
+    /* max-width: 1200px; */
+    width: 1290px;
+    height: 50%;
+    margin: 0;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    height: 325px;
+    background-color: black; 
+}
+.cabeçalho{
+    width: 1300px;
+}
+/* .logo a{
+    width: 1338px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+} */
+.menu{
+    width: 1296px;
+    margin-left: 2%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Sedan SC', sans-serif;
+}
+.barras{
+    width: 30px;
+    display: none;
+}
+.banner{
+    background-image: url(../img/img-banner.svg);
+    height: 918px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.fundo-banner{
+    background-color: black;
+    height: 100px;
+}
+.fundo-banner h1{
+    float: left;
+    font-family: 'Sedan SC', sans-serif;
+    text-decoration: underline;
+    color: white;
+    margin-left: 1%;
+    margin-top: 20px;
+    
+}
+.iniciar a{
+    /* display: flex;
+    justify-content: flex-end; */
+    background-color: #83BEC1;
+    color: white;
+    text-transform: uppercase; 
+    font-family: 'Sedan SC', sans-serif;
+    padding: 9px;
+
+}
+.iniciar{
+    margin-top: 1%;
+    display: flex;
+    justify-content: flex-end;
+}
+.color{
+    background-color: rgb(225, 5, 5);
+    height: 5px;
+}
+.black-friday{
+    height: 10px;
+    width: 1348px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.fundo{
+    background-color: black;
+    height: 10px;
+    width: 1200px;
+}
+.imageContainer {
+    float: left;
+    margin-right: 10px;
+    margin: 12px;
+    padding-top: 1%;
+}
+.image-seção{
+    background-color: black;
+    height: 400px;
+}
+.jogos img{
+    width: 196px;
+    height: 220px;
+    margin-left: 3px;
+
+}
+.carrinho img{
+   float: left;
+   width: 90px;
+   margin-left: 3%;
+   margin-top: 2%;
+
+}
+.opções-steam{
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+}
+.steam{
+     background-color: black;
+     height: 150px;
+}
+.opções-steam a{
+    float: left;
+    text-transform: uppercase;
+    background-color:#83BEC1;
+    border-radius: 5px;
+    /* margin-top: 1%; */
+    padding: 8px;
+}
+.steam a{
+    margin-left: 3%;
+    color: white;
+    text-decoration: none;
+    font-family: 'Sedan SC', sans-serif;
+}
+.informações p{
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    font-family: 'Sedan SC', sans-serif;
+}
+.steam h1{
+    float: left;
+    color: white;
+    text-decoration: underline;
+    margin-left: 0%;
+    margin-top: 7px;
+    font-family: 'Sedan SC', sans-serif;
+}
+.roda-pé{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.informações img{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 250px;
+}
+.informações a{
+    display: flex;
+    align-items: left;
+    color: white;
+    text-decoration: none;
+    font-family: 'Sedan SC', sans-serif;
+}
+.input-group{
+    margin-top: 8%;
+}
+@media screen and (max-width:1200px) {
+    .container-grid{
+        width: 98%;
+    }
+    .black-friday{
+        width: 102%;
+    }
+    .imageContainer{
+        margin: 0px;
+    }
+}
+@media screen and (max-width:768px) {
+    .barras{
+        display: inline-block;
+    }
+    .menu{
+    display: none;
+    flex-direction: column;
+    width: 200px;
+    height: 100px;
+    }
+}
+@media screen and (max-width:320px) {
+    .barras{
+        display: inline-block;
+    }
+    .menu{
+    display: none;
+    flex-direction: column;
+    width: 200px;
+    height: 100px;
+    }
+}
