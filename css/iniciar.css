@@ -2,11 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* color: #fff; */
     border: none;
   }
 main {
-    background-image: linear-gradient(to bottom, #23232e, rgba(255, 0, 0, 0.89));
+    background-image: linear-gradient(to bottom, #000090ca, rgba(2, 1, 1, 0.89));
     height: 100vh;
     
 }
@@ -14,24 +13,24 @@ main {
     color: #e60084;
     text-decoration: underline;
 }
-  /*form*/
+  /* form */
 #main-container {
 
     width: 500px;
     margin-left: 70vh;
-    border: 2px solid rgb(241, 24, 24);
+    border: 2px solid rgb(228, 221, 221);
     background: rgba(2, 2, 2, 0.671);
     border-radius: 10px;
     padding: 25px;
 
 }
-textarea:focus, input:focus, select:focus{
+input:focus{
     box-shadow: 0 0 0 0;
-    border: 0 none;
     outline: 0;
+    border-color: #FF1A1A;
 }
 .iniciar-secão {
-    margin-top: 6%;
+    margin-top: 4%;
     position: absolute;
 }
 #main-container h1 {
@@ -70,11 +69,9 @@ input {
     font-size: .9rem;
     margin-bottom: 40px;
 }
-input:focus {
-    border-color: #e60084;
-}
-input[type="submit"] {
-    background-color: #131212;
+
+button[type="submit"] {
+    background-color: #000000;
     color: #fff;
     border: none;
     border-radius: 20px;
@@ -98,4 +95,14 @@ input[type="submit"] {
 }
 .template {
     display: none;
+}
+@media (max-width:1200px) {
+    #main-container { 
+        margin-left: 32vh;
+    }
+}
+@media screen and (max-width:778px){
+    #main-container {
+        margin-left: 13vh;
+    }
 }

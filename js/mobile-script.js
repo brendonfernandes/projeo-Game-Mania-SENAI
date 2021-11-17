@@ -13,8 +13,7 @@ $(document).ready(function() {
   }
     
 })
-
-$('.carousel').carousel()
+// $('.carrossel').carrossel()
 
 
 let pesquisa = document.getElementById("campo-pesquisa");
