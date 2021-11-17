@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: #fff; */
+    border: none;
+  }
+main {
+    background-image: linear-gradient(to bottom, #23232e, rgba(255, 0, 0, 0.89));
+    height: 100vh;
+    
+}
+#agreement-label a {
+    color: #e60084;
+    text-decoration: underline;
+}
+  /*form*/
+#main-container {
+
+    width: 500px;
+    margin-left: 70vh;
+    border: 2px solid rgb(241, 24, 24);
+    background: rgba(2, 2, 2, 0.671);
+    border-radius: 10px;
+    padding: 25px;
+
+}
+textarea:focus, input:focus, select:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+.iniciar-secão {
+    margin-top: 6%;
+    position: absolute;
+}
+#main-container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.6em; /*adapta ao elemento root */
+    color: #fff;
+    font-family: 'Sedan SC', sans-serif;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.full-box1 {
+    flex: 1 1 100%;
+    position: relative;
+    display: inline-grid;
+}
+.half-box {
+    flex: 1 1 45%;
+    position: relative;
+}
+
+.spacing {
+    margin-right: 8%;
+}
+label {
+    font-weight: bold;
+    font-size: .8rem;
+    color: white;
+}
+input {
+    border-bottom: 2px solid #1b1a1a;
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 40px;
+}
+input:focus {
+    border-color: #e60084;
+}
+input[type="submit"] {
+    background-color: #131212;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+    width: 446px;
+}
+#ageement {
+    margin-right: 5px;
+}
+#agreement, #agreement-label {
+    display: inline-block;
+    width: auto;
+}
+  /*validações*/
+.error-validation {
+    color: #FF1A1A;
+    position: absolute;
+    top: 57px;
+    font-size: .8rem;
+}
+.template {
+    display: none;
+}
