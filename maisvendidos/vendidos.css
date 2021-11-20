@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.seção-vendidos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-image:linear-gradient(to right, black, rgba(219, 20, 20, 0.609) ) ;
+    
+}
+.vendidos{
+    background-color: rgb(17, 17, 17);
+    padding: 20px;
+    font-size: 1.5em;
+    color: #fff;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* .seleção{
+    background-color: turquoise;
+    width: 300px;
+    height: 150px;
+    padding: 50px;
+} */
+.maisVendidos {
+    width: 255px;
+    height: 320;
+    background-color: rgb(17, 17, 17);
+    padding: 31px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.maisVendidos img{
+    width: 40vh;
+}
+.maisVendidos R1{
+    color: red;
+    font-size: 1.5em;
+}
+.maisVendidos p{
+    
+    color: white;
+    font-size: 1.5em;
+}

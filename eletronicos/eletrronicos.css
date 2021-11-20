@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-eletronico{
+    background-image:linear-gradient(to bottom, black, rgba(109, 61, 61, 0.609) ) ;
+    padding: 50px;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: red;
+}
+.eletronicos a{
+    padding:6px;
+    height: 20px;
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    border-radius: 2px;
+}
+.body{
+    background-image:linear-gradient(to bottom, black, rgba(109, 61, 61, 0.609) ) ;
+}
+.section-eletronicos img{
+    width: 80vh;
+    height: 70vh;
+}
+.eletronicos {
+    background-color: black;
+    padding: 40px;
+    /* width: 80vh;
+    height: 70vh; */
+    color: white;
+    /* border-radius: 20px; */
+    letter-spacing: 1px;
+
+    }
+.eletronicos R1 {
+    color: rgb(192, 11, 11);
+    font-size: 1.5em;
+}
+@media  screen and (max-width: 320px){
+    .section-eletronicos img {
+        width: 15vh;
+        height: 12vh;
+    }
+    .nav-eletronico img{
+        width: 220px;
+    }
+    
+}
+@media  screen and (max-width: 720px){
+    .section-eletronicos img {
+        width: 35vh;
+        height: 30vh;
+    }
+    
+}
+@media  screen and (max-width: 778px){
+    .section-eletronicos img {
+        width: 35vh;
+        height: 30vh;
+    }
+}
+@media  screen and (max-width: 1200px){
+    .section-eletronicos img {
+        width: 60vh;
+        height: 47vh;
+    }
+}

@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../img/img-fundo.jpeg);
+}
+.embreve{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.transmissões{
+    color: white;
+    font-size: 2em;
+    font-family:sans-serif;
+}
