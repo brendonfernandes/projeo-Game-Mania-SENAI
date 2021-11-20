@@ -4,6 +4,10 @@
 }
 body{
     background-image:linear-gradient(to bottom, black, rgba(219, 20, 20, 0.609) ) ;
+    font-family: 'Comforter', 'cursive';
+}
+.jogueAgora p{
+    font-family: 'Comforter', 'cursive';
 }
 .jogueAgora{
     

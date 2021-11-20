@@ -5,8 +5,8 @@
     border: none;
   }
 main {
-    background-image: linear-gradient(to bottom, #000090ca, rgba(2, 1, 1, 0.89));
-    height: 100vh;
+    background-image: linear-gradient(to bottom,  rgba(2, 1, 1, 0.89), #1313a5ca);
+    height: 100vw;
     
 }
 #agreement-label a {
@@ -15,9 +15,11 @@ main {
 }
   /* form */
 #main-container {
-
+    margin: 0;
+    
     width: 500px;
     margin-left: 70vh;
+    align-items: center;
     border: 2px solid rgb(228, 221, 221);
     background: rgba(2, 2, 2, 0.671);
     border-radius: 10px;
@@ -34,6 +36,7 @@ input:focus{
     position: absolute;
 }
 #main-container h1 {
+    font-family: 'Comforter', 'cursive';
     text-align: center;
     margin-bottom: 25px;
     font-size: 1.6em; /*adapta ao elemento root */
@@ -98,11 +101,15 @@ button[type="submit"] {
 }
 @media (max-width:1200px) {
     #main-container { 
-        margin-left: 32vh;
+        margin-left: 72vh;
     }
 }
 @media screen and (max-width:778px){
     #main-container {
-        margin-left: 13vh;
+        margin-left: 30vh;
     }
+}
+@media screen and (max-width:320px) {
+    
+    
 }

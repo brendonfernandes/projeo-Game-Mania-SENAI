@@ -3,15 +3,29 @@
     padding: 0;
 }
 body{
-    background-image: url(../img/img-fundo.jpeg);
+    background-image: linear-gradient(to bottom, rgb(29, 42, 112), rgb(49, 40, 40));
+    height: 100vw;
 }
-.embreve{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+img{
+    width: 100vh;
+    padding: 15vh;
 }
 .transmissões{
+    
+    opacity: 0.5em;
     color: white;
     font-size: 2em;
-    font-family:sans-serif;
+    font-family: 'cursive';
+    text-align: center;
+    
+}
+@media screen and (max-width:320px){
+    .transmissões {
+        font-size: 1em;
+    } 
+    img {
+        width: 66vh;
+        padding: 0vh;
+    }
+    
 }
