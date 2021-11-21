@@ -4,10 +4,13 @@
 }
 body{
     background-image:linear-gradient(to bottom, black, rgba(219, 20, 20, 0.609) ) ;
-    font-family: 'Comforter', 'cursive';
+}
+main{
+    background-color: black;
 }
 .jogueAgora p{
-    font-family: 'Comforter', 'cursive';
+    font-family: 'Comforter';
+    font-size: 1.8em;
 }
 .jogueAgora{
     
@@ -21,15 +24,33 @@ body{
     
     background-image:linear-gradient(to right, black, rgba(109, 61, 61, 0.609) ) ;
 }
+.section-jogos img{
+    width: 100vh;
+}
 .section-jogos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
     padding: 50px;
     
 }
+/* .section-jogos img{
+    width: 50vh;
+} */
 #Download{
     border: none;
     border-radius: 5px;
     background-color: rgb(182, 46, 21);
     padding: 15px;
     cursor: pointer;
+}
+@media screen and (max-width:320px) {
+    .section-jogos img {
+        width: 60vh;
+    }
+    .jogueAgora p{
+        font-family: 'Cursive';
+        font-size: 1em;
+    }
 }

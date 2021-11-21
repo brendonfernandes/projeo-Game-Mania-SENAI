@@ -25,6 +25,21 @@ function pesquisarItem() {
 function name(params) {
     
 }
+// $(document).ready(function() {
+  
+//   $("#espaco-jogos img:eq()").addClass("banner-ativo").show()
+  
+//   setInterval(slide, 2000)
+//   function slide() {
+//     if( $(".banner-ativo").next().length ) {
+//         $(".banner-ativo").removeClass("banner-ativo").hide().next().addClass("banner-ativo").show()
+//     } else {
+//       $(".banner-ativo").removeClass().hide()
+//        $("#espaco-jogos img:eq(2)").addClass("banner-ativo").show()
+//     }
+//   }
+    
+// })
 // function renderizarJogos() {
 //     let espaco = document.getElementById("espaco-jogos")
 //     let listaDejogos = [
@@ -102,7 +117,7 @@ class MobileScript {
     ".nav-list li",
   );
   mobileScript.init();
-    
+  
   
   
   // function mostrarPopup() {

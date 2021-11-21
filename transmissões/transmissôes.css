@@ -4,7 +4,10 @@
 }
 body{
     background-image: linear-gradient(to bottom, rgb(29, 42, 112), rgb(49, 40, 40));
-    height: 100vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 img{
     width: 100vh;

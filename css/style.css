@@ -3,38 +3,6 @@
     padding: 0;
     text-align: center;
 }
-body {
-    overflow-x: hidden;
-}
-.container-grid {
-    
-    height: 50%;
-}
-header {
-    height: 280px;
-    background-color: black; 
-}
-.carrinho img{
-    float: left;
-    width: 80px;
-    height: 70px;
-    margin-left: 8%;
-    margin-top: 2%;
-    background-size: cover;
-}
-.iniciar a{
-    float: right;
-    background-color: #83BEC1;
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase; 
-    font-family: 'Sedan SC', sans-serif;
-    padding: 8px;
-}       
-.logo img{
-    width: 700px;
-    margin-left: 4%;
-}
 a {
     color: #fff;
     text-decoration: none;
@@ -43,32 +11,51 @@ a {
 a:hover {
     opacity: 0.7;
 }
+
+body {
+    overflow-x: hidden;
+}
+header {
+    height: 280px;
+    background-color: black; 
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .5rem;
+}
+.carrinho img{
+    width: 80px;
+    height: 70px;
+}
+.iniciar a{
+    float: right;
+    background-color: #83BEC1;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase; 
+    padding: 8px;
+}       
+.logo img{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+}
+
+/* menu barras*/
+
 .nav-list {
     list-style: none;
     display: flex;
-    font-family: 'Sedan SC', sans-serif;
-    margin-right: 1.3em;
-    margin-left: 0vh;
-    width: 100vw;
+    margin-right: 2.3rem;
     justify-content: space-between;
     text-transform: uppercase;
-    margin-top: 9vh;
-
 }
 .nav-list li {
-    letter-spacing: 3px;
-    margin-left: 32px;
-    
+    letter-spacing: 2px;
+}
 
-}
-.menu-barras {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    /* background: #23232e; */
-    height: 10vh;
-    float: inline-end;
-}
 .mobile-menu {
     display: none;
     cursor: pointer;
@@ -81,6 +68,34 @@ a:hover {
     transition: 0.3s;
     border-radius: 3px;
 }
+/* campo pesquisa */
+
+#campo-pesquisa {
+    border: none;
+    height: 30px;
+}
+.button {
+    background-color:white;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    padding: 3px;
+}
+.CampoPesquisa {
+    border-radius: 9%;
+    
+}
+.campo-input{
+    
+    height: 60px;
+    letter-spacing: -5px;
+}
+input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+/* banner e carossel*/
 
 .fundo-banner{
     background-color: black;
@@ -92,7 +107,7 @@ a:hover {
     text-decoration: underline;
     color: white;
     margin-top: 20px;
-    font-size: 2em;
+    font-size: 2.5em;
     
 }
 #carrossel img{
@@ -100,7 +115,7 @@ a:hover {
 }
 
 .carrossel img {
-    height: 650px;
+    height: 45vw;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -113,77 +128,78 @@ a:hover {
 }
 .color{
     background-color: rgb(225, 5, 5);
-    height: 5px;
+    height: 3px;
 }
+/*secão jogos black friday*/
+
 #espaco-jogos{
-    width: 100vw;
-    height: 100px;
+    display: flex;
     
 }
-.imageContainer {
-    width: 158px;
-    float: left;
-    margin-right: 27px;
-    padding-top: 3%;
-    display: grid;
+.espaco{
+    background-color: black;
+    padding: 10px;
 }
 .jogos {
     background-color: black;
-    height: 300px;
+    width: 100vw;
 }
 .jogos img{
     width: 156px;
     height: 204px;
 }
 .imageContainer a{
-    float: left;
     background-color:red;
     border-radius: 5px;
     color: white;
     text-decoration: none;
     text-transform: uppercase; 
-    font-family: 'Sedan SC', sans-serif;
+    padding: 6px;
+    
 
 }
+/*opções do steam*/
 
-
-.opções-steam{
-    width: 1085px;
-    justify-content: space-between;
-    float:right;
+.opções {
+    width: 133vh;
     display: flex;
-    margin-top: 5%;
+    flex-direction: column;
+    align-items: center;
+}
+.opções-steam{
+    justify-content: space-between;
+    display: flex;
+    width: 100vw;
 }
 .remomendaçoes {
     display: none;
 }
-.redes-sociais img{
-    width: 50px;
-    float: right;
-}
 .steam{
     background-color: black;
-    height: 150px;    
+    height: 150px;
+    display: grid;
+    
 }
 .steam a{
     text-transform: uppercase;
     background-color:#83BEC1;
     border-radius: 5px;
-    padding: 8px;
+    padding: 9px;
+    height: 40px;
     color: white;
     justify-content: space-between;
     text-decoration: none;
-    font-family: 'Sedan SC', sans-serif;
     
 }
 .steam h1{
     float: left;
     color: white;
     text-decoration: underline;
-    margin-top: 7px;
-    font-family: 'Sedan SC', sans-serif;
-    font-size: 2em;
+    font-family: 'Comforter', 'cursive';
+    font-size: 2.5em;
 }
+/*roda pé*/
+
 .roda-pé{
     height: 200px;
     background-color: black;
@@ -195,7 +211,6 @@ a:hover {
 }
 .contato h1, h2{
     color: white;
-    font-family: 'Sedan SC', sans-serif;
     text-decoration: none; 
     display: flex;
     font-size: 1.5em;
@@ -205,60 +220,26 @@ a:hover {
 .contato a{
     color: white;
     text-decoration: none;
-    font-family: 'Sedan SC', sans-serif;
     display: flex;
     margin-left: 2%;
     width: 300px;
 }
-button{
-    background-color:white;
-    border: none;
-}
-#campo-pesquisa {
-    border: none;
-    height: 30px;
-    
-    
-}
-.button {
-    cursor: pointer;
-    height: 30px;
-    padding: 3px;
-}
-.CampoPesquisa {
-    border-radius: 9%;
-    
-
-}
 .bloco-jogos{
     padding: 10px;
 }
-.campo-input{
-  
-    height: 60px;
-    letter-spacing: -5px;
-}
-input:focus{
-    box-shadow: 0 0 0 0;
-    outline: 0;
+.redes-sociais img{
+    width: 50px;
+    float: right;
 }
 @media screen and (max-width:1200px) {
-    .carrossel img {width: 1200px;}
     
-    .imageContainer {
-        margin: 0px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 15vw;
-    }
     .imageContainer a {
         padding: 2px;
         width: 141px;
     }
     .nav-list {margin-right: 3vh;margin-left: 0vh;}
     
-    .opções-steam {margin-right: -6vh;}
+    .opções {width: 189vh;}
     .contato img {width: 190px;float: right;margin-top: -8%;}
     .jogos img{width: 140px;height: 180px;}
 }
@@ -266,7 +247,7 @@ input:focus{
 @media screen and (max-width:778px) {
     
     .cabeçalho{width: 770px;}
-    .banner {height: 400px;width: 100vw;}
+    
     .logo img {width: 370px;margin-left: 7%;}
     .carrinho img {width: 68px;margin-left: 1%;margin-top: 3%;height: 50px;}
     .nav-list {
@@ -274,26 +255,23 @@ input:focus{
         margin-left: 0vh;
     }
     .jogos img {width: 110px;height: 140px;margin-left: 3px;}
-    .imageContainer{
-        width: 116px;
-    }
-    .carrossel img {
-        height: 420px;
-        width: 100vw;
-    }
+
     .imageContainer a {
         width: 111px;
         margin-left: 3px;
     }
-    .opções-steam {width: 639px; margin-right: 2vh;}
+    .opções {
+        width: 51vh;
+    }
 }
 @media screen and (max-width:720px) {
-    .carrossel img {
-        height: 420px;
-        width: 100vw;
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding-left: 24px;
     }
-    .imageContainer {
-        width: 112px;
+    .opções {
+        width: 47vh;
     }
     
 }
@@ -307,10 +285,10 @@ input:focus{
         width: 100vw;
         height: 60%;
     }
+    /* nabar */
     .logo img {
-        width: 225px;
+        width: 241px;
         float: right;
-        margin-left: 0;
     }
     .iniciar{
         display: none;
@@ -323,40 +301,42 @@ input:focus{
         height: 35px;
         margin-left: 1%;
         margin-top: 2%;
-        }
-    .campo-input {
-        margin-left: 53px;
-        position: absolute;
-        top: 16vh;
     }
+    #campoPesquisa{width: 150px;}
+    /* banner/carrossel */
     .fundo-banner h1{
-        font-size: 1.5em;
+        font-size: 2em;
     }
-    .carrossel img {
-        height: 190px;
-        width: 320px;
-    }
+    /* jogos/blackfriday */
     .jogos img{
         width: 113px;
         height: 127px;
-        margin-left: 22px;
     }
-    .imageContainer{
-        margin: 0;
-        width: auto;
+    #espaco-jogos {
+        padding: 34px;
+        display: block;
     }
-    .imageContainer a {
-        margin-left: 20px;
-        width: 118px;
-    }
+
     .jogos{
-        height: 522px;
+        height: 544px;
     }
+    .imageContainer {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        float: inline-end;
+    }
+    /* opção-sateam */
+    .opções {
+        width: 21vh;
+    }
+    .steam h1 {font-size: 1.5em;}
     .steam a {
-        padding: 2px;
-        border-radius: 5px;
+        padding: 6px;
+        border-radius: 3px;
         text-transform: none;
     }
+    /* iniciar seção */
     .iniciar-seção a{
         padding: 4px;
         background-color: red;
@@ -377,6 +357,7 @@ input:focus{
         background-color: black;
         height: 100px;
     }
+    /* roda-pé */
     .redes-sociais img {
         width: 50px;
         float: right;
@@ -393,17 +374,12 @@ input:focus{
     .roda-pé {
         height: 150px;
     }
-    .opções-steam {
-        width: 309px;
-        margin-top: 6%;
-        margin-right: 0vh;
+    .imageContainer{
+        display: flex;
     }
-    .steam h1 {font-size: 1.5em;}
-    #campoPesquisa{width: 150px;}
-
     .nav-list {
         position: absolute;
-        top: 5vh;
+        top: 26vh;
         right: 0;
         width: 60vw;
         margin-right: 0vh;
@@ -417,6 +393,13 @@ input:focus{
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
     }
+    .menu-barras {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 2vh;
+        width: 34px;
+        float: inline-end;
+    }
     .nav-list li {
         margin-left: 1px;
         opacity: 0;
@@ -425,7 +408,6 @@ input:focus{
     .mobile-menu {
         display: block;
     }
-
 
     .nav-list.active {
         transform: translateX(0);

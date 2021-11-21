@@ -4,10 +4,10 @@
     box-sizing: border-box;
     border: none;
   }
-main {
+body {
     background-image: linear-gradient(to bottom,  rgba(2, 1, 1, 0.89), #1313a5ca);
-    height: 100vw;
-    
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #agreement-label a {
     color: #e60084;
@@ -16,12 +16,9 @@ main {
   /* form */
 #main-container {
     margin: 0;
-    
     width: 500px;
-    margin-left: 70vh;
     align-items: center;
     border: 2px solid rgb(228, 221, 221);
-    background: rgba(2, 2, 2, 0.671);
     border-radius: 10px;
     padding: 25px;
 
@@ -32,8 +29,10 @@ input:focus{
     border-color: #FF1A1A;
 }
 .iniciar-secão {
-    margin-top: 4%;
-    position: absolute;
+    padding-top: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #main-container h1 {
     font-family: 'Comforter', 'cursive';
@@ -100,16 +99,17 @@ button[type="submit"] {
     display: none;
 }
 @media (max-width:1200px) {
-    #main-container { 
-        margin-left: 72vh;
-    }
+   
 }
 @media screen and (max-width:778px){
-    #main-container {
-        margin-left: 30vh;
-    }
+
 }
 @media screen and (max-width:320px) {
-    
+    #main-container {
+        width: 284px;
+    }
+    button[type="submit"]{
+        width: 232px;
+    }
     
 }
