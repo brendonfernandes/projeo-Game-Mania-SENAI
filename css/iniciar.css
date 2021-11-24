@@ -4,10 +4,12 @@
     box-sizing: border-box;
     border: none;
   }
-body {
+main {
     background-image: linear-gradient(to bottom,  rgba(2, 1, 1, 0.89), #1313a5ca);
     background-repeat: no-repeat;
     background-size: cover;
+    
+    
 }
 #agreement-label a {
     color: #e60084;
@@ -72,7 +74,7 @@ input {
     margin-bottom: 40px;
 }
 
-button[type="submit"] {
+#btn-submit {
     background-color: #000000;
     color: #fff;
     border: none;
@@ -108,8 +110,9 @@ button[type="submit"] {
     #main-container {
         width: 284px;
     }
-    button[type="submit"]{
+    #btn-submit{
         width: 232px;
     }
+
     
 }

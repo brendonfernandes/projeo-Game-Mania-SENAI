@@ -9,23 +9,25 @@
     font-size: 1.5em;
     background-color: red;
 }
-.eletronicos a{
+#comprar {
     padding:6px;
-    height: 20px;
+    height: 35px;
     background-color: red;
     text-decoration: none;
     color: white;
-    border-radius: 2px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
 }
 body{
-    background-image:linear-gradient(to bottom, black, rgba(109, 61, 61, 0.609) ) ;
+     background-color: black;
 }
 .section-eletronicos img{
     width: 80vh;
     height: 70vh;
 }
 .eletronicos {
-    background-color: black;
+    
     padding: 40px;
     /* width: 80vh;
     height: 70vh; */

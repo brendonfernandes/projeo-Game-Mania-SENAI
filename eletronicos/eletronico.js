@@ -1,0 +1,3 @@
+function botaoComprar(){
+    alert ('sucesso!!')
+}

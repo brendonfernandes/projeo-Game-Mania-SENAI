@@ -31,9 +31,13 @@ class Validator {
   
   let validator = new Validator();
   // evento que dispara as validações
-  submit.addEventListener('click', function(e) {
+  submit.addEventListener("click", function(e) {
     
     e.preventDefault();
   
     validator.validate(form)
   });
+
+  function minhaFuncao(){
+    alert('Usuario cadastrado com sucesso!!');
+  }
