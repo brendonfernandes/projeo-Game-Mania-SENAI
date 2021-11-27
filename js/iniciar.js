@@ -20,7 +20,6 @@ class Validator {
         // loop em todas valiações existentes
         for(let i = 0; this.validations.length > i; i++) {
           if(input.getAttribute(this.validations[i]) != null) {
-            console.log('achou validação');
           }
         }
       }, this); 
@@ -31,11 +30,12 @@ class Validator {
   
   let validator = new Validator();
   // evento que dispara as validações
-  submit.addEventListener("click", function(e) {
+  submit.addEventListener('click', function(e) {
     
     e.preventDefault();
-  
+    
     validator.validate(form)
+    console.log('achou validação');
   });
 
   function minhaFuncao(){

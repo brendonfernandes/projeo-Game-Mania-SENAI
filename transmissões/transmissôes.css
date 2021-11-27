@@ -7,6 +7,7 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    height: 100vh;
 
 }
 img{
@@ -22,13 +23,24 @@ img{
     text-align: center;
     
 }
+@media screen and (max-width:778px){
+    img {
+        width: 48vh;
+    }
+} 
+@media screen and (max-width:420px){
+    img {
+        width: 38vh;
+        padding: 2vh;
+    }
+} 
 @media screen and (max-width:320px){
     .transmissões {
         font-size: 1em;
     } 
     img {
-        width: 66vh;
-        padding: 0vh;
+        width: 24vh;
+        padding: 4vh;
     }
     
 }

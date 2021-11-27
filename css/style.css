@@ -136,10 +136,7 @@ input:focus{
     display: flex;
     
 }
-.espaco{
-    background-color: black;
-    padding: 10px;
-}
+
 .jogos {
     background-color: black;
     width: 100vw;
@@ -215,14 +212,12 @@ input:focus{
     text-decoration: none; 
     display: flex;
     font-size: 1.5em;
-    margin-left: 2%;
     width: 300px;
 }
 .contato a{
     color: white;
     text-decoration: none;
     display: flex;
-    margin-left: 2%;
     width: 300px;
 }
 .bloco-jogos{
@@ -231,6 +226,10 @@ input:focus{
 .redes-sociais img{
     width: 50px;
     float: right;
+}
+.contato{
+    padding-top: 2vh;
+    
 }
 @media screen and (max-width:1200px) {
     
@@ -277,6 +276,9 @@ input:focus{
     
 }
 @media screen and (max-width: 420px) {
+    header{
+        height: 140px;
+    }
     .iniciar {
         display: none;
     }
@@ -292,12 +294,12 @@ input:focus{
         height: 127px;
     }
     #espaco-jogos {
-        padding: 34px;
+        padding: 36px;
         display: block;
     }
 
-    .jogos{
-        height: 544px;
+    .jogos {
+        height: 380px;
     }
     .imageContainer {
         display: flex;
@@ -307,7 +309,7 @@ input:focus{
     }
     .nav-list {
         position: absolute;
-        top: 26vh;
+        top: 6vh;
         right: 0;
         width: 60vw;
         margin-right: 0vh;
@@ -364,13 +366,9 @@ input:focus{
     } 
 }
 @media screen and (max-width:320px) {
-
+    
     header {
         height: 155px;
-    }
-    .container-grid {
-        width: 100vw;
-        height: 60%;
     }
     /* nabar */
     .logo img {
@@ -446,7 +444,7 @@ input:focus{
     }
     /* roda-pé */
     .redes-sociais img {
-        width: 50px;
+        width: 30px;
         float: right;
     }
     .contato h1, h2 {

@@ -29,8 +29,7 @@
 }
 
 .maisVendidos {
-    width: 255px;
-    height: 320;
+    width: 40vh;
     background-image: linear-gradient(to bottom, black , rgb(46, 12, 12)); 
     padding: 31px;
     border-radius: 20px;
@@ -49,4 +48,17 @@
     
     color: white;
     font-size: 1.2em;
+}
+@media screen and (max-width:420px) {
+    .maisVendidos img {
+        width: 24vh;
+    }
+}
+@media screen and (max-width:320px) {
+    .maisVendidos{
+        width: 194px;
+    }
+    .maisVendidos img {
+        width: 20vh;
+    }
 }

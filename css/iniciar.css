@@ -4,10 +4,13 @@
     box-sizing: border-box;
     border: none;
   }
-main {
+body {
     background-image: linear-gradient(to bottom,  rgba(2, 1, 1, 0.89), #1313a5ca);
     background-repeat: no-repeat;
     background-size: cover;
+    max-height: 310vw;
+    height: 100vh;
+
     
     
 }
@@ -90,8 +93,8 @@ input {
     display: inline-block;
     width: auto;
 }
-  /*validações*/
-.error-validation {
+  /* validações*/
+.error-validation template {
     color: #FF1A1A;
     position: absolute;
     top: 57px;
