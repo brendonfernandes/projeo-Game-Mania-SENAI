@@ -34,28 +34,17 @@ body{
     color: white;
     /* border-radius: 20px; */
     letter-spacing: 1px;
-
-    }
+    
+}
 .eletronicos R1 {
     color: rgb(192, 11, 11);
     font-size: 1.5em;
 }
-@media  screen and (max-width: 320px){
+@media  screen and (max-width: 1200px){
     .section-eletronicos img {
-        width: 15vh;
-        height: 12vh;
+        width: 60vh;
+        height: 47vh;
     }
-    .nav-eletronico img{
-        width: 220px;
-    }
-    
-}
-@media  screen and (max-width: 720px){
-    .section-eletronicos img {
-        width: 35vh;
-        height: 30vh;
-    }
-    
 }
 @media  screen and (max-width: 778px){
     .section-eletronicos img {
@@ -63,9 +52,19 @@ body{
         height: 30vh;
     }
 }
-@media  screen and (max-width: 1200px){
+@media  screen and (max-width: 420px){
     .section-eletronicos img {
-        width: 60vh;
-        height: 47vh;
+        width: 35vh;
+        height: 30vh;
     }
+}
+@media  screen and (max-width: 320px){
+    .section-eletronicos img {
+        width: 26vh;
+        height: 22vh;
+    }
+    .nav-eletronico img{
+        width: 220px;
+    }
+    
 }
